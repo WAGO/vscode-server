@@ -1,6 +1,6 @@
 # Table of contents
 
-* [wagono-vscode-integration](README.md)
+* [vscode-server](README.md)
 * [extensions](extensions/README.md)
   * [Docker](extensions/docker.md)
 * [settings](settings/README.md)
