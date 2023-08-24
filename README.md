@@ -85,4 +85,4 @@ cd /home/admin
 su -c './code tunnel --accept-server-license-terms' admin
 ```
 
-Rebbot the controller and test the connection.
+Reboot the controller and test the connection.
