@@ -1,4 +1,4 @@
-# wagono-vscode-integration
+# vscode-server
 
 How to support MS VS-Code on Wago Devices
 
