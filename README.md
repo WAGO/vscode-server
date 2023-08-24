@@ -66,7 +66,7 @@ It's possible to use several Vs-Code extensions on the Wago remote device, e.g. 
 
 ## Tunnel as a service (workaround)
 
-Please read ussuetracker [here](https://github.com/Wago-Norge/wagono-vscode-integration/issues/3). Create a tunnel as described in this repo then make a startup script of your own.
+Please read ussuetracker [here](https://github.com/WAGO/vscode-server/issues/2). Create a tunnel as described in this repo then make a startup script of your own.
 
 ```bash
 touch /etc/init.d/vscode && chmod +x /etc/init.d/vscode
