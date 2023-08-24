@@ -1,3 +1,0 @@
-cd /home/admin
-logger "Microsoft Vs-code server started"
-su -c './code tunnel --accept-server-license-terms' admin
