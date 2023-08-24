@@ -12,10 +12,6 @@ VS-Code will download the server bits and need enough space. Also we need some s
 
 _Currently Edge Controller 750-8303 is prefered beacause this device provides enough CPU power and RAM for the connection. Other devices will work, but are slower to connect etc._
 
-There are some known issues. Please read the issue tracker.
-
-Updates can/may be found in issue tracker 'Backlog' entry.
-
 ## Building the IPK's
 
 Using Wago SDK we can build the two IPK's with selecting _'core -> gcc libraries -> libatomic_' and 'Shell & Console Tools -> Busibox -> Coreutils -> readlink' and '_Enable canonicalization by following all symlinks (-f)_'.
