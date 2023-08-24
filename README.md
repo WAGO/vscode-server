@@ -1,6 +1,6 @@
 # vscode-server
 
-How to support MS VS-Code on Wago Devices
+How to support MS VS-Code server on Wago Devices
 
 ## About
 
