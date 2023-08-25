@@ -6,6 +6,8 @@ How to support MS VS-Code server on Wago Devices
 
 These packages enables Microsoft Visual Studio Code server to be installed on Wago 32-bit arm based devices. There are currently two methods to connect remote from the VS-Code IDE; with the Remote SSH extension or with the Remote Tunnels extension.
 
+#### Contribute in the [issues](https://github.com/WAGO/vscode-server/issues) and [discussion ](https://github.com/WAGO/vscode-server/discussions)section.
+
 ## Note!
 
 VS-Code will download the server bits and need enough space. Also we need some space for apps and extensions. A good way to start is the default 'admin' user-space (not root).
