@@ -14,6 +14,11 @@ CTRL+SHIFT+p and 'Live Preview: 'Start server' or pres the icon 'Show Preview' a
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://onepagelove.com/evelyn">https://onepagelove.com/evelyn</a></p></figcaption></figure>
 
+To start making web pages with the provided lighttpd server we could use this extension for testing the result as we allready have a connection to the device.
 
+```bash
+// Quick and dirty
+chown admin /var/www
+```
 
-##
+Open /var/www folder in VS-Code and create a test page. Then start the live preview server as described above to see the result.
