@@ -58,7 +58,7 @@ Right click the Dockerfile and 'Build Image..'. The image can now be found in th
 
 ## Building dev container (workaround)
 
-Its also passible to build with a developement container. Connect to controller with SSH then install 'Dev Container' extension. Guidelines is found in the extension. Please read issuetracker [here](https://github.com/WAGO/vscode-server/issues/7).
+Its also passible to build a developement container. Connect to controller with SSH then install 'Dev Container' extension. Guidelines is found in the extension. Please read issuetracker [here](https://github.com/WAGO/vscode-server/issues/7).
 
 Hit CTRL+SHIFT+p to open command palette and 'Dev Containers: Add Dev Containers Configuration Files'.  Choose 'From Dockerfile'.
 
