@@ -7,3 +7,4 @@
   * [Git](extensions/git.md)
 * [Settings](settings/README.md)
   * [Terminal](settings/terminal.md)
+  * [User](settings/user.md)
