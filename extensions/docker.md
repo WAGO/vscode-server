@@ -32,7 +32,7 @@ Download and run the code-server CLI in the container. Afterwards you should fin
 
 ## Connect with SSH
 
-Connect to controller with SSH then install 'Docker' extension. Guidelines is found in the extension. Please read issuetracker [here](https://github.com/WAGO/vscode-server/issues/6).
+Connect to controller with SSH then install 'Docker' extension. Guidelines is found in the extension.&#x20;
 
 Pull a 'Debian' container, then right click the image and select 'run interactive'. Now the container shows up in the 'containers view' and the terminal connects to the container. Prepare the container with the fallowing:
 
@@ -41,7 +41,7 @@ apt update
 apt Install libatomic1
 ```
 
-Right click the container in the containers-view and select 'Attach Visual Studio Code'.
+Right click the container in the containers-view and select 'Attach Visual Studio Code'.&#x20;
 
 ## Building with Dockerfile
 
@@ -56,13 +56,17 @@ CMD echo "Hello"
 
 Right click the Dockerfile and 'Build Image..'. The image can now be found in the Docker extension.
 
-## Building dev container (workaround)
+## Building dev container
 
-Its also passible to build a developement container. Connect to controller with SSH then install 'Dev Container' extension. Guidelines is found in the extension. Please read issuetracker [here](https://github.com/WAGO/vscode-server/issues/7).
+Its also passible to build a developement container. Connect to controller with SSH then install 'Dev Container' extension. Guidelines is found in the extension. Currently there is only support for 64-bit containers.
 
-Hit CTRL+SHIFT+p to open command palette and 'Dev Containers: Add Dev Containers Configuration Files'.  Choose 'From Dockerfile'.
+### Workaround for 32-bit
+
+Make a Dockerfile. Hit CTRL+SHIFT+p to open command palette and 'Dev Containers: Add Dev Containers Configuration Files'.  Choose 'From Dockerfile'.
 
 To run dev container open command palette and ''Dev containers: Reopen in container' to build and connect to the new container specified in the Dockerfile.
+
+
 
 
 
