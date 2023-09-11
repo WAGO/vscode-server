@@ -1,9 +1,5 @@
 # vscode-server
 
-How to support MS VS-Code server on Wago Devices
-
-## About
-
 These packages enables Microsoft Visual Studio Code server to be installed on Wago 32-bit arm based devices. There are currently two methods to connect remote from the VS-Code IDE; with the Remote SSH extension or with the Remote Tunnels extension.
 
 #### Contribute in the [issues](https://github.com/WAGO/vscode-server/issues) and [discussion ](https://github.com/WAGO/vscode-server/discussions)section.
@@ -16,7 +12,10 @@ _Currently Edge Controller 750-8303 is prefered beacause this device provides en
 
 ## Building the IPK's
 
-Using Wago SDK we can build the two IPK's with selecting _'core -> gcc libraries -> libatomic_' and 'Shell & Console Tools -> Busibox -> Coreutils -> readlink' and '_Enable canonicalization by following all symlinks (-f)_'.
+Using Wago SDK we can build the two IPK's with selecting:
+
+1. C_ore -> gcc libraries -> libatomic_
+2. Shell & Console Tools -> Busibox -> Coreutils -> _Enable canonicalization by following all symlinks (-f)_
 
 Pay attention to that the ipk's may be rebuild with every firmware to match the allready installed version.
 
@@ -28,7 +27,7 @@ Install the two ipk's found in this repo with the Web Based Management (WBM) 'Co
 opkg install --force-reinstall <IPK>
 ```
 
-> Packages with the same name could allready excist (but without all features). With the new ipk's provided here only the content has changed therefor we get a warning. Using WBM we must select 'force install'. NB! If libraries need to be downgraded use 'opkg --downgrade' (not possible with WBM).
+> WBM Software Uploads only supports 'force reinstall'. In the case of downgrading the IPK installation we must use CLI and 'opkg install --force-reinstall --force-downgrade \<IPK>'.
 
 If we want to use the the remote SSH extension (instead of tunneling) we must change the settings for SSH-server Dropbear:
 
@@ -66,9 +65,9 @@ Download and unpack the cli-server from microsoft.com, then start the tunnel as 
 
 It's possible to use several Vs-Code extensions on the Wago remote device, e.g. Docker.
 
-## Tunnel as a service (workaround)
+## Tunnel as a service
 
-Please read ussuetracker [here](https://github.com/WAGO/vscode-server/issues/2). Create a tunnel as described in this repo then make a startup script of your own.
+Create a tunnel as described in this repo then make a startup script of your own.
 
 ```bash
 touch /etc/init.d/vscode && chmod +x /etc/init.d/vscode

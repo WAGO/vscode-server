@@ -18,7 +18,7 @@ chmod o+rwx /var/run/docker.sock
 
 ## Connect with tunnel (workaround)
 
-Connect to controller with remote tunnel then install 'Docker' extension. Guidelines is found in the extension. Please read issuetracker [here](https://github.com/WAGO/vscode-server/issues/4).
+Connect to controller with remote tunnel then install 'Docker' extension. Guidelines is found in the extension.&#x20;
 
 Pull a 'Debian' container, then right click the image and select 'run interactive'. Now the container shows up in the 'containers view' and the terminal connects to the container. Prepare the container with the fallowing:
 

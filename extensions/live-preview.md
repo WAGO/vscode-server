@@ -2,9 +2,8 @@
 
 ## Prerequisite
 
-Enable HTTP in WBM.
-
-SSH connection. Please read issuetracker [here](https://github.com/WAGO/vscode-server/issues/5).
+1. Enable HTTP in WBM.
+2. SSH connection.&#x20;
 
 ## Demo
 
@@ -12,7 +11,7 @@ Download or make a sample webpage to admin-user space. Open this folder.
 
 CTRL+SHIFT+p and 'Live Preview: 'Start server' or pres the icon 'Show Preview' at top right corner.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://onepagelove.com/evelyn">https://onepagelove.com/evelyn</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Wago Lighttpd server
 
