@@ -14,7 +14,7 @@ _Currently Edge Controller 750-8303 is prefered beacause this device provides en
 
 Using Wago SDK we can build the two IPK's with selecting:
 
-1. C_ore -> gcc libraries -> libatomic_
+1. Core -> gcc libraries -> libatomic_
 2. Shell & Console Tools -> Busibox -> Coreutils -> _Enable canonicalization by following all symlinks (-f)_
 
 Pay attention to that the ipk's may be rebuild with every firmware to match the allready installed version.
