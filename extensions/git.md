@@ -2,11 +2,11 @@
 
 ## Prerequisite&#x20;
 
-VS-Code comes with git source control. We can use this client when connected if we install git on the device. The install itself is not covered here but is tested.
+VS-Code comes with git source control. We can use this client when connected if we install git on the device. The git installation itself is not covered.
 
 ## Command line interface
 
-Connect with tunnel and start a new terminal. Use git cli and clone a repository into e.g. /home/admin. Then Change location to this folder:
+Connect with tunnel and start a new terminal. Use git cli and clone a repository into e.g. /home/admin. Then change location to this folder:
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
