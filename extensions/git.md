@@ -2,7 +2,7 @@
 
 ## Prerequisite&#x20;
 
-VS-Code comes with git source control. We can use this client when connected if we install git on the device. The git installation itself is not covered.
+VS-Code comes with git source control. We can use this client when connected if we install git on the device. The git installation itself is not covered here.
 
 ## Command line interface
 
