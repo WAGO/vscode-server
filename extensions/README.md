@@ -1,5 +1,5 @@
-# extensions
+# Extensions
 
 ## About
 
-VS-Code extensions on Wago device.
+Extensions supported on Wago device.

@@ -4,27 +4,32 @@
 
 VS-Code comes with git source control. We can use this client when connected if we install git on the device. The git installation itself is not covered here.
 
-## Command line interface
-
-Connect with tunnel and start a new terminal. Use git cli and clone a repository into e.g. /home/admin. Then change location to this folder:
-
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-Change 'readme' (save) and git catches the change:
-
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-
-Manual commit and push:
-
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
 ## Extension
 
-Now we do the same from the extension, change the readme and git catches the change:
+Connect to the device. Press 'explorer' or 'source control' icon to:
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+* Open folder and init a git repository.
+* Clone a repository from Github.
 
-Press 'commit' and then 'sync changes'. Result in Github:
+After opening a folder we can not select 'Clone Repository in the 'source control' view anymore. then we have to select 'File -> Close folder'.&#x20;
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+## Github Pull Request And Issues
+
+With the 'Github Pull Request And Issues' extension we can review and manage GitHub pull requests and issues.&#x20;
+
+## GitHub Repository Manager
+
+With the 'GitHub Repository Manager' we can make, clone and access repositories.
+
+##
+
+
+
+
+
+
+
+
+
+
 
