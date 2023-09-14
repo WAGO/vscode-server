@@ -4,7 +4,7 @@ description: User spesific settings
 
 # User
 
-Default VS-Code will download the server to the user-directory belonging to this user launching it. This means also extensions bits will be downloaded to the same user space. If we use a memory card we can extend the space creating a symlink from default VS-Code directory to the new directory on the memory card:
+Default VS-Code will download the server to the directory belonging to user launching it. If we use a memory card we can extend the space creating a symlink from default VS-Code directory to the new directory on the memory card:
 
 ```
 // Log in as root
