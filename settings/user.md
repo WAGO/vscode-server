@@ -1,18 +1,27 @@
+---
+description: User spesific settings
+---
+
 # User
 
-Default VS-Code will download the server to the user-directory belonging to this user launching it. If we use a memory card we can extend the disk space creating a symlink from default directory to the new directory on the memory card like this:
+Default VS-Code will download the server to the user-directory belonging to this user launching it. This means also extensions bits will be downloaded to the same user space. If we use a memory card we can extend the space creating a symlink from default VS-Code directory to the new directory on the memory card:
 
 ```
-// Log in as root and change "myusername" to e.g. vscode..
+// Log in as root
 cd /home
-useradd username "myusername"
-usermod -a -G admin "myusername"
-ln -s "/media/myusername" "myusername"
+useradd <new user>
+passwd <new user>
+mv <new user> /media/sd
+ln -s /media/sd/<new user> <new user>
+chown -h <new user>:<new user> <new user>
 ```
 
-Start the tunnel as you created user and VS-Code will download the server bits to SD card:
+For remote SSH configure the .ssh-config parameters to the newly created user. For remote tunnel start the tunnel as the newly created user and VS-Code will download the server bits to SD card:
 
 ```
-su "myusername"
+su <user>
 ./code tunnel
 ```
+
+
+

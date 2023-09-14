@@ -1,8 +1,8 @@
 ---
-description: terminal shell spesific
+description: Terminal shell spesific settings
 ---
 
-# terminal
+# Terminal
 
 Configure terminal shell to GNU bash:
 
