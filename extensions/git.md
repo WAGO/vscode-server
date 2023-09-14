@@ -6,6 +6,16 @@ VS-Code comes with git source control. We can use this client when connected if 
 
 ## Extension
 
+Common git operations from within the editor:
+
+* Initialize a repository.
+* Clone a repository.
+* Create branches and tags.
+* Stage and commit changes.
+* Push/pull/sync with a remote branch.
+* Resolve merge conflicts.
+* View diffs.
+
 Connect to the device. Press 'explorer' or 'source control' icon to:
 
 * Open folder and init a git repository.
