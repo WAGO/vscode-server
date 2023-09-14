@@ -1,3 +1,7 @@
+---
+description: Local web server extension from Microsoft
+---
+
 # Live Preview
 
 ## Prerequisite

@@ -1,3 +1,7 @@
+---
+description: Native Git extension from Microsoft
+---
+
 # Git
 
 ## Prerequisite&#x20;
