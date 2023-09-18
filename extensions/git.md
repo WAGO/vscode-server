@@ -1,12 +1,12 @@
 ---
-description: Native Git extension from Microsoft
+description: Git extension from Microsoft
 ---
 
 # Git
 
 ## Prerequisite&#x20;
 
-VS-Code comes with git source control. We can use this client when connected if we install git on the device. The git installation itself is not covered here.
+VS-Code comes with git source control. We can use this client when connected if we [install git on the device.](https://github.com/WAGO/git-armv7)&#x20;
 
 ## Extension
 
