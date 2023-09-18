@@ -10,24 +10,12 @@ VS-Code will download the server bits and need enough space. Also we need some s
 
 _Currently Edge Controller 750-8303 is prefered beacause this device provides enough CPU power and RAM for the connection. Other devices will work, but are slower to connect etc._
 
-## Building the IPK's
-
-Using Wago SDK we can build the two IPK's with selecting:
-
-1. Core -> gcc libraries -> libatomic_
-2. Shell & Console Tools -> Busibox -> Coreutils -> _Enable canonicalization by following all symlinks (-f)_
-
-Pay attention to that the ipk's may be rebuild with every firmware to match the allready installed version.
-
 ## Prerequisite
 
-Install the two ipk's found in this repo with the Web Based Management (WBM) 'Configuration -> Software Upload' or with the command line interface:
+Install the ipk's in Web Based Management (WBM) software upload tab (select 'force install' if notified):&#x20;
 
-```
-opkg install --force-reinstall <IPK>
-```
-
-> WBM Software Uploads only supports 'force reinstall'. In the case of downgrading the IPK installation we must use CLI and 'opkg install --force-reinstall --force-downgrade \<IPK>'.
+* Busybox
+* GCC libs&#x20;
 
 If we want to use the the remote SSH extension (instead of tunneling) we must change the settings for SSH-server Dropbear:
 
