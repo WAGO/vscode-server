@@ -8,7 +8,7 @@ These packages enables Microsoft Visual Studio Code server to be installed on Wa
 
 VS-Code will download the server bits and need enough space. Also we need some space for apps and extensions. A good way to start is the default 'admin' user-space (not root).
 
-_Currently Edge Controller 750-8303 is prefered beacause this device provides enough CPU power and RAM for the connection. Other devices will work, but are slower to connect etc._
+_Currently Edge Controller 752-8303 is prefered beacause this device provides enough CPU power and RAM for the connection. Other devices will work, but are slower to connect etc._
 
 ## Prerequisite
 
