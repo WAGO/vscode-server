@@ -12,10 +12,7 @@ _Currently Edge Controller 750-8303 is prefered beacause this device provides en
 
 ## Prerequisite
 
-Install the ipk's in Web Based Management (WBM) software upload tab (select 'force install' if notified):&#x20;
-
-* Busybox
-* GCC libs&#x20;
+Install the ipk's in Web Based Management (WBM) software upload tab (select 'force install' if notified).&#x20;
 
 If we want to use the the remote SSH extension (instead of tunneling) we must change the settings for SSH-server Dropbear:
 
