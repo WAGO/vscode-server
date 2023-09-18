@@ -12,17 +12,17 @@ _Currently Edge Controller 752-8303 is prefered beacause this device provides en
 
 ## Prerequisite
 
-Install the ipk's in Web Based Management (WBM) software upload tab (select 'force install' if notified).&#x20;
+Install the ipk's in Web Based Management (WBM) software upload tab (select 'force install' if notified).
 
 If we want to use the the remote SSH extension (instead of tunneling) we must change the settings for SSH-server Dropbear:
 
-```
+```sh
 nano /etc/dropbear/dropbear.conf
 ```
 
 Then enable for 'local port forwarding':
 
-```
+```sh
 LOCAL_PORT_FORWARDING=true
 ```
 
@@ -40,7 +40,7 @@ Open VS-Code and install 'Remote - Tunnels' extension. Guideline is found in the
 
 Download and unpack the cli-server from microsoft.com, then start the tunnel as admin:
 
-```
+```sh
 ./code tunnel
 ```
 
@@ -54,19 +54,19 @@ It's possible to use several Vs-Code extensions on the Wago remote device, e.g. 
 
 Create a tunnel as described in this repo then make a startup script of your own.
 
-```bash
+```sh
 touch /etc/init.d/vscode && chmod +x /etc/init.d/vscode
 ```
 
 Add symlink:
 
-```bash
+```sh
 ln -s /etc/init.d/vscode /etc/rc.d/S99_z1_vscode
 ```
 
 Edit 'vscode' script with this content:
 
-```bash
+```sh
 cd /home/admin
 su -c './code tunnel --accept-server-license-terms' admin
 ```
