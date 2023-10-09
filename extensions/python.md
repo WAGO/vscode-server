@@ -13,9 +13,15 @@ A Python 3 IPK is provided in this repository. After installation we can change 
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Install pip:
+Install pip (bundled):
 
 ```
 python3 -m ensurepip --upgrade
+```
+
+Upgrade:
+
+```
+pip3 install --upgrade pip
 ```
 
