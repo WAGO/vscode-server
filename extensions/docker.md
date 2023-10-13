@@ -20,7 +20,20 @@ Add others:
 chmod o+rwx /var/run/docker.sock
 ```
 
-## Connect with tunnel (workaround)
+## Connect to container
+
+Connect to the controller with SSH or tunnel (dev.container) then install 'Docker' extension and dev. container extension. Guidelines is found in the extensions.&#x20;
+
+Pull a 'Debian' container, then right click the image and select 'run interactive'. Now the container shows up in the 'containers view' and the terminal connects to the container. Prepare the container with the fallowing:
+
+```bash
+apt update
+apt Install libatomic1
+```
+
+Right click the container in the containers-view and select 'Attach Visual Studio Code'.&#x20;
+
+### A workaround for developement container connection
 
 Connect to controller with remote tunnel then install 'Docker' extension. Guidelines is found in the extension.&#x20;
 
@@ -33,19 +46,6 @@ apt install --reinstall ca-certificates
 ```
 
 Download and run the code-server CLI in the container. Afterwards you should find the tunnel as normal in the remote explorer.
-
-## Connect with SSH
-
-Connect to controller with SSH then install 'Docker' extension. Guidelines is found in the extension.&#x20;
-
-Pull a 'Debian' container, then right click the image and select 'run interactive'. Now the container shows up in the 'containers view' and the terminal connects to the container. Prepare the container with the fallowing:
-
-```bash
-apt update
-apt Install libatomic1
-```
-
-Right click the container in the containers-view and select 'Attach Visual Studio Code'.&#x20;
 
 ## Building with Dockerfile
 
@@ -62,7 +62,7 @@ Right click the Dockerfile and 'Build Image..'. The image can now be found in th
 
 ## Building dev container
 
-Its also passible to build a developement container. Connect to controller with SSH then install 'Dev Container' extension. Guidelines is found in the extension. Currently there is only support for 64-bit containers.
+Its also passible to build a developement container. Connect to controller with SSH or tunnel then install 'Dev Container' extension. Guidelines is found in the extension. Currently there is only support for 64-bit containers.
 
 ### Workaround for 32-bit
 
