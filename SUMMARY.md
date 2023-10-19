@@ -10,3 +10,4 @@
   * [Terminal](settings/terminal.md)
   * [User](settings/user.md)
   * [Extensions](settings/extensions.md)
+  * [Git](settings/git.md)
