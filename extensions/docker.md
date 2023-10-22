@@ -14,10 +14,11 @@ Root owns docker.sock and the docker-group can connect but not "others" like adm
 srw-rw----    1 root     docker           0 Jul  7 10:04 /var/run/docker.sock
 ```
 
-Add admin to docker group:
+Add admin to docker group and reboot:
 
 ```
 usermod -a -G docker admin
+reboot
 ```
 
 Alternative:
