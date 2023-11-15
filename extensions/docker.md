@@ -14,7 +14,14 @@ Root owns docker.sock and the docker-group can connect but not "others" like adm
 srw-rw----    1 root     docker           0 Jul  7 10:04 /var/run/docker.sock
 ```
 
-Add others:
+Add admin to docker group and reboot:
+
+```
+usermod -a -G docker admin
+reboot
+```
+
+Alternative:
 
 ```bash
 chmod o+rwx /var/run/docker.sock
@@ -22,7 +29,7 @@ chmod o+rwx /var/run/docker.sock
 
 ## Connect to container
 
-Connect to the controller with SSH or tunnel (dev.container) then install 'Docker' extension and dev. container extension. Guidelines is found in the extensions.&#x20;
+Connect to the controller with SSH or tunnel (dev.container) then install 'Docker' extension and dev. container extension. Guidelines is found in the extensions.
 
 Pull a 'Debian' container, then right click the image and select 'run interactive'. Now the container shows up in the 'containers view' and the terminal connects to the container. Prepare the container with the fallowing:
 
@@ -31,11 +38,11 @@ apt update
 apt Install libatomic1
 ```
 
-Right click the container in the containers-view and select 'Attach Visual Studio Code'.&#x20;
+Right click the container in the containers-view and select 'Attach Visual Studio Code'.
 
 ### A workaround for developement container connection
 
-Connect to controller with remote tunnel then install 'Docker' extension. Guidelines is found in the extension.&#x20;
+Connect to controller with remote tunnel then install 'Docker' extension. Guidelines is found in the extension.
 
 Pull a 'Debian' container, then right click the image and select 'run interactive'. Now the container shows up in the 'containers view' and the terminal connects to the container. Prepare the container with the fallowing:
 
@@ -66,11 +73,6 @@ Its also passible to build a developement container. Connect to controller with 
 
 ### Workaround for 32-bit
 
-Make a Dockerfile. Hit CTRL+SHIFT+p to open command palette and 'Dev Containers: Add Dev Containers Configuration Files'.  Choose 'From Dockerfile'.
+Make a Dockerfile. Hit CTRL+SHIFT+p to open command palette and 'Dev Containers: Add Dev Containers Configuration Files'. Choose 'From Dockerfile'.
 
 To run dev container open command palette and ''Dev containers: Reopen in container' to build and connect to the new container specified in the Dockerfile.
-
-
-
-
-
