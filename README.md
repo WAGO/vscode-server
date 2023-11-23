@@ -46,9 +46,21 @@ Download and unpack the cli-server from microsoft.com, then start the tunnel as 
 
 [https://code.visualstudio.com/docs/remote/tunnels](https://code.visualstudio.com/docs/remote/tunnels)
 
-## Extensions on remote host
+## Nice to know about
 
-It's possible to use several Vs-Code extensions on the Wago remote device, e.g. Docker.
+#### Exension usage:
+
+* [Docker](extensions/docker.md)
+* [Live Preview](extensions/live-preview.md)
+* [Git](extensions/git.md)
+* [Python](extensions/python.md)
+
+#### Various settings:
+
+* [Terminal](settings/terminal.md)
+* [User](settings/user.md)
+* [Extensions](settings/extensions.md)
+* [Git](settings/git.md)
 
 ## Tunnel as a service
 
