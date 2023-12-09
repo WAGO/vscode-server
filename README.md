@@ -1,7 +1,5 @@
 # vscode-server
 
-<mark style="color:red;">NOT SYNCED WITH GIT! MAKE BRANCH->SYNC->PULL REQUEST..</mark>
-
 These packages enables [Microsoft Visual Studio Code server](https://code.visualstudio.com/Download) to be installed on Wago 32-bit arm based devices. There are currently two methods to connect remote from the VS-Code IDE; with the Remote SSH extension or with the Remote Tunnels extension.
 
 #### See also [issues](https://github.com/WAGO/vscode-server/issues) and [discussion ](https://github.com/WAGO/vscode-server/discussions)section.
@@ -56,6 +54,7 @@ Download and unpack the cli-server from microsoft.com, then start the tunnel as 
 * [Live Preview](extensions/live-preview.md)
 * [Git](extensions/git.md)
 * [Python](extensions/python.md)
+* [Go](extensions/go.md)
 
 #### Various settings:
 
@@ -63,6 +62,11 @@ Download and unpack the cli-server from microsoft.com, then start the tunnel as 
 * [User](settings/user.md)
 * [Extensions](settings/extensions.md)
 * [Git](settings/git.md)
+* [Go](settings/go.md)
+
+Exampels:
+
+* Go
 
 ## Tunnel as a service
 
