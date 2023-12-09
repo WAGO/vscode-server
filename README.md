@@ -66,7 +66,7 @@ Download and unpack the cli-server from microsoft.com, then start the tunnel as 
 
 Exampels:
 
-* [Go](examples/go/)
+* [Go](examples/go/opc-ua.md)
 
 ## Tunnel as a service
 
