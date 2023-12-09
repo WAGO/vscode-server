@@ -66,7 +66,7 @@ Download and unpack the cli-server from microsoft.com, then start the tunnel as 
 
 Exampels:
 
-* Go
+* [Go](examples/go/)
 
 ## Tunnel as a service
 
