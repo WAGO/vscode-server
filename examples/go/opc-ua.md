@@ -32,7 +32,7 @@ iCnt := iCnt + 1
 
 ## GO Client
 
-We need to adapt the program to fit the actual device. IP address \<IP\_ADDRESS> and connection string \<DEVICE\_STRING> must be changed to actual device. Connection string could be found in WBM -> Fieldbus -> OPC UA tab.
+We need to adapt the [code](opc-ua-client.go) to fit the actual device. IP address \<IP\_ADDRESS> and connection string \<DEVICE\_STRING> must be changed to actual device. Connection string could be found in WBM -> Fieldbus -> OPC UA tab.
 
 ```go
 endpoint = flag.String("endpoint", "opc.tcp://<IP_ADDRESS>:4840", "OPC UA Endpoint URL")
