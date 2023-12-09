@@ -54,6 +54,7 @@ Download and unpack the cli-server from microsoft.com, then start the tunnel as 
 * [Live Preview](extensions/live-preview.md)
 * [Git](extensions/git.md)
 * [Python](extensions/python.md)
+* [Go](extensions/go.md)
 
 #### Various settings:
 
@@ -61,6 +62,11 @@ Download and unpack the cli-server from microsoft.com, then start the tunnel as 
 * [User](settings/user.md)
 * [Extensions](settings/extensions.md)
 * [Git](settings/git.md)
+* [Go](settings/go.md)
+
+Exampels:
+
+* [Go](examples/go/opc-ua.md)
 
 ## Tunnel as a service
 
