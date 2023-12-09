@@ -11,7 +11,7 @@
 
 ## About
 
-This example could be runned directly on the device to achieve easy access to CoDeSys variables. It will read one variable cyclic from the CoDeSys program and output to the terminal.&#x20;
+This example also runs directly on the controller to achieve easy access to CoDeSys variables. It will read one variable cyclic from the CoDeSys program and output to the terminal.&#x20;
 
 ## Codesys
 
