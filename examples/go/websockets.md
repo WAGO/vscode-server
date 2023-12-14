@@ -43,9 +43,15 @@ END_IF
 
 ## Websocket server&#x20;
 
+Example listens for initial connection on localhost and http port 8080:
+
+```go
+http.ListenAndServe(":8080", nil)
+```
+
 Output from server when CODESYS client is connected:
 
-```
+```go
 WEBSOCKET server: Client connected!
 ```
 
