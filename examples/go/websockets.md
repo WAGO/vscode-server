@@ -8,7 +8,7 @@
 
 ## About
 
-A CODESYS websocket client communicating with a websocket server. Server must be started before CODESYS program. Example is using&#x20;
+A CODESYS websocket client communicating with a websocket server. Server must be started before CODESYS program.&#x20;
 
 ## Codesys
 
