@@ -10,6 +10,7 @@
 * [Examples](examples/README.md)
   * [Go](examples/go/README.md)
     * [OPC UA](examples/go/opc-ua.md)
+    * [Websockets](examples/go/websockets.md)
 * [Settings](settings/README.md)
   * [Go](settings/go.md)
   * [Terminal](settings/terminal.md)
