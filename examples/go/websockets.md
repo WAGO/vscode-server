@@ -8,7 +8,7 @@
 
 ## About
 
-A CODESYS websocket client communicating with a websocket server. Server must be started before CODESYS program.
+A CODESYS websocket client communicating with a websocket server. Server must be started before CODESYS program. Example is using&#x20;
 
 ## Codesys
 
@@ -23,6 +23,8 @@ END_VAR
 ```
 
 Program:
+
+Client connects to localhost port 8080:
 
 ```
 FbWebSocket(xEnable:= TRUE, sUri:= 'ws://localhost:8080);
@@ -43,7 +45,7 @@ END_IF
 
 ## Websocket server&#x20;
 
-Example listens for initial connection on localhost and http port 8080:
+Server listens for initial connection on localhost and http port 8080:
 
 ```go
 http.ListenAndServe(":8080", nil)
