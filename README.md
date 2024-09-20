@@ -14,6 +14,8 @@ _Currently Edge Controller 752-8303 is prefered beacause this device provides en
 
 Install the ipk's in Web Based Management (WBM) software upload tab (select 'force install' if notified).
 
+> Can be skipped for FW >= 27.
+
 If we want to use the the remote SSH extension (instead of tunneling) we must change the settings for SSH-server Dropbear:
 
 ```sh
