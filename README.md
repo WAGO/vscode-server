@@ -8,7 +8,7 @@
 
 VS-Code will download the server bits and need enough space. Also we need some space for apps and extensions. A good way to start is the default 'admin' user-space (not root).
 
-_PFC300 or Edge Controller is prefered beacause these devices provides enough CPU power and RAM for the connection. Other devices will also work, but are slower to connect etc._
+_PFC300 or Edge Controller is prefered because these devices provides enough CPU power and RAM for the connection. Other devices will also work, but are slower to connect etc._
 
 ## Prerequisite
 
